@@ -1,14 +1,12 @@
-
-.container-password {
-   width: 100%;
+.container-password-generator{
+     width: 100%;
   height: 100%;
   background-image: linear-gradient(to top, #209cff 100%, #68e0cf 200%);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+}
+.container-password-generator-child {
   margin: 40px 0;
   width: 400px;
   height: 1050px;
@@ -18,7 +16,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
   font-family: "Montserrat";
 }
-.container-password h2.title {
+.container-password-generator-child h2.title {
   font-size: 1.75rem;
   margin: 10px -5px;
   margin-bottom: 30px;
