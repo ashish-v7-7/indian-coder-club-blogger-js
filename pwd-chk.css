@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
-.container-password-generator{
-     width: 100%;
+body {
+  width: 100%;
   height: 100%;
   background-image: linear-gradient(to top, #209cff 100%, #68e0cf 200%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container-password-generator-child {
+
+button {
+  border: 0;
+  outline: 0;
+  
+}
+
+.container {
   margin: 40px 0;
   width: 400px;
   height: 1050px;
@@ -22,7 +29,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
   font-family: "Montserrat";
 }
-.container-password-generator-child h2.title {
+.container h2.title {
   font-size: 1.75rem;
   margin: 10px -5px;
   margin-bottom: 30px;
@@ -311,24 +318,6 @@ border-width: 1px;
 .time{
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 div.newscontent{
  text-align:justify;
 }
@@ -428,7 +417,7 @@ margin: 5px;
 width:100%;
 text-align:center;
 color: #fff;
-margin: 12px;
+margin: 12;
 }
 div.generate_button input{
 padding: 6px;
@@ -543,20 +532,3 @@ h3.cta_link{
   width: 597.5px;
   font-size: 11px;
 }
-
-
-/*!
- * jQuery JavaScript Library v1.5.1
- * http://jquery.com/
- *
- * Copyright 2011, John Resig
- * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
- *
- * Includes Sizzle.js
- * http://sizzlejs.com/
- * Copyright 2011, The Dojo Foundation
- * Released under the MIT, BSD, and GPL Licenses.
- *
- * Date: Wed Feb 23 13:55:29 2011 -0500
- */
