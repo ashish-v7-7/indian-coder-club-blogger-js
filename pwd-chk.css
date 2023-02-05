@@ -9,7 +9,7 @@ button {
   
 }
 
-.container {
+.container-password-generator-child {
   margin: 40px 0;
   width: 400px;
   height: 1050px;
@@ -19,7 +19,7 @@ button {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
   font-family: "Montserrat";
 }
-.container h2.title {
+.container-password-generator-child h2.title {
   font-size: 1.75rem;
   margin: 10px -5px;
   margin-bottom: 30px;
