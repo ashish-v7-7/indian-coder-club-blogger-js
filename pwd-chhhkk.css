@@ -314,7 +314,7 @@ p.nwsimg {
 #lgd_out_pg_pass,
 #lgd_out_str_m,
 #lgd_out_pg_opt {
-  width: 100%;
+  width: 98%;
 }
 #logged_out_generator {
   width: 100%;
@@ -419,20 +419,19 @@ div.generate_button input {
 }
 #lgd_out_pg_pass {
   margin-bottom: 10px;
+  margin-top: 6px;
   background-color: #ffffff;
 }
 #complexity {
   position: relative;
   left: 0px;
   font-weight: bold;
-  padding: 5px;
   padding-bottom: 10px;
   margin-top: 10px;
   cursor: default;
   color: white;
   background-color: #d0d0d0;
   text-align: center;
-  width: 100%;
   margin-top: 50px;
 }
 
